@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.primary-bg{
+    background-color: #0E1530;
+}
+
+.primary-color{
+    color: #0E1530;
+}
+
+.text-1{
+    font-size: 1rem;
+}
