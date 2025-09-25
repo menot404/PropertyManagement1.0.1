@@ -26,8 +26,7 @@ GestionImmobilière est une solution complète de gestion immobilière conçue p
 ### Backend
 - **Node.js** - Environnement d'exécution JavaScript
 - **Express** - Framework web
-- **MongoDB** - Base de données NoSQL
-- **Mongoose** - Modélisation d'objets MongoDB pour Node.js
+- **MySQL** - Base de données relationnelle SQL
 - **JWT** (JSON Web Tokens) - Authentification
 
 ### Outils
@@ -42,7 +41,7 @@ Suivez ces étapes pour installer et exécuter le projet localement.
 ### Prérequis
 - Node.js (v14 ou supérieur)
 - npm (v7 ou supérieur)
-- MongoDB (en local ou URI distant)
+- MySQL (en local ou URI distant)
 
 ### Étapes
 
@@ -108,23 +107,6 @@ gestionimmobiliere/
     ├── index.html
     ├── package.json
     └── vite.config.js
-```
-
-## Configuration
-
-### Backend (backend/.env)
-
-```ini
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/gestionimmobiliere
-JWT_SECRET=votre_secret_jwt
-JWT_EXPIRES_IN=30d
-```
-
-### Frontend (frontend/.env)
-
-```ini
-VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
 ## Utilisation
