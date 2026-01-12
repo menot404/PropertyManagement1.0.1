@@ -18,7 +18,6 @@ pm2-logs/
 
 # Dependencies
 node_modules/
-package-lock.json
 
 # Environment variables
 .env
