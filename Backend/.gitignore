@@ -1,0 +1,33 @@
+# Environnement
+.env*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.class
+target/  # Maven/Gradle
+
+# Build/Artifacts
+dist/
+build/
+*.jar
+*.war
+*.ear
+
+# Bases de données
+*.db
+*.sqlite
+*.sqlite3
+migrations/
+
+# Logs
+*.log
+logs/
+pm2-logs/
+
+# Fichiers système
+.DS_Store
+Thumbs.db

@@ -1,1 +1,17 @@
-Backend/.env
+# Fichiers multi-environnement
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Documentation générée
+docs/_build/
+site/
+
+# Fichiers de déploiement
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Autres
+*.bak
+*.tmp
+*~
