@@ -1,0 +1,43 @@
+# Fichiers multi-environnement
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Documentation générée
+docs/_build/
+site/
+
+# Fichiers de déploiement
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Autres
+*.bak
+*.tmp
+*~
+
+# Global node_modules (au cas où)
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary
+*.tmp
+.cache/
